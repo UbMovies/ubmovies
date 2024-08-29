@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h3>${movie.title}</h3>
             `;
             movieItem.addEventListener('click', () => {
-                const url = `https://ubmovies.github.io/ubmovie?embedLink=${encodeURIComponent(movie.embedLink)}`;
+                const url = movie.embedLink;
                 window.open(url, '_blank');
                 movieIframe.src = movie.embedLink;
                 movieIframe.requestFullscreen();
