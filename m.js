@@ -89,11 +89,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h3>${movie.title}</h3>
             `;
             movieItem.addEventListener('click', () => {
-                const url = movie.embedLink;
-                window.open(url, '_blank');
-                if(embedLink){
-                    document.writeln("Refrest Url Bar");
-                }
+                         const url = movie.embedLink;
+  const a = document.createElement('a');
+  a.href = url;
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+  a.click();
                 //movieIframe.src = `/proxy?url=${encodeURIComponent(movie.embedLink)}`;
                 //movieIframe.requestFullscreen();
 
