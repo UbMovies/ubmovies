@@ -89,16 +89,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h3>${movie.title}</h3>
             `;
             movieItem.addEventListener('click', () => {
-              const url = `movie.html?embedLink=${movie.embedLink}`;
+                const url = `https://ubmovies.github.io/ubmovie?embedLink=${encodeURIComponent(movie.embedLink)}`;
                 window.open(url, '_blank');
                 movieIframe.src = movie.embedLink;
+                movieIframe.requestFullscreen();
+            
                 const hiddenIframe = document.createElement('iframe');
                 hiddenIframe.src = movie.embedLink;
                 hiddenIframe.style.display = 'none';
                 document.body.appendChild(hiddenIframe);
-
-
             });
+
+
             movieList.appendChild(movieItem);
         });
     }
