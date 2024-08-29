@@ -89,18 +89,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h3>${movie.title}</h3>
             `;
             movieItem.addEventListener('click', () => {
-                const url = movie.embedLink;
+                const url = `movie.html?embedLink=${movie.embedLink}`;
                 window.open(url, '_blank');
                 movieIframe.src = movie.embedLink;
                 movieIframe.requestFullscreen();
-            
                 const hiddenIframe = document.createElement('iframe');
-                hiddenIframe.src = movie.embedLink;
-                hiddenIframe.style.display = 'none';
-                document.body.appendChild(hiddenIframe);
+    hiddenIframe.src = movie.embedLink;
+    hiddenIframe.style.display = 'none';
+    document.body.appendChild(hiddenIframe);
+
+
             });
-
-
             movieList.appendChild(movieItem);
         });
     }
@@ -112,4 +111,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     displayMovies(movies);
+
+
+    // Append the reset button to the document, below the search bar
+    searchBar.parentNode.appendChild(resetButton);
 });
