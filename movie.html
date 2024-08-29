@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UB Movies </title>
+    <link rel="stylesheet" href="Files.YT/css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Ub Movies </h1>
+        
+    </header>
+    <main>
+        <section class="movie-list" id="movieList">
+            <div id="movieList"></div>
+        
+            <iframe id="movie-iframe" width="80%" height="500%" frameborder="0" allowfullscreen></iframe>
+                    
+
+        </section>
+
+    </main>
+   
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const embedLink = urlParams.get('embedLink');
+
+        const iframe = document.getElementById('movie-iframe');
+        iframe.src = embedLink;
+    </script>
+    <script src="m.js"></script>
+</body>
+</html>
