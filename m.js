@@ -89,10 +89,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h3>${movie.title}</h3>
             `;
             movieItem.addEventListener('click', () => {
-                const url = `movie.html?embedLink=${encodeURIComponent(movie.embedLink)}`;
+                const url = movie.embedLink;
                 window.open(url, '_blank');
-                movieIframe.src = `/proxy?url=${encodeURIComponent(movie.embedLink)}`;
-                movieIframe.requestFullscreen();
+                if(embedLink){
+                    document.writeln("Refrest Url Bar");
+                }
+                //movieIframe.src = `/proxy?url=${encodeURIComponent(movie.embedLink)}`;
+                //movieIframe.requestFullscreen();
 
 
             });
