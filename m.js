@@ -5,9 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const movies = [
         //movies
-        { id: 51, title: 'Games Of Thrones Season 1 Ep4', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled14.mp4' },
-     { id: 50, title: 'Games Of Thrones Season 1 Ep3', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled13.mp4' },
-       { id: 49, title: 'Games Of Thrones Season 1 Ep2', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled720.mp4' },
+    
         { id: 48, title: 'Peaky Blinders (Ep 6)', image: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182741_b_v8_aa.jpg', description: '', embedLink: 'https://embedpk.net/embed-qg0mtbpgbax6.html' },
         { id: 47, title: 'Peaky Blinders (Ep 5)', image: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182741_b_v8_aa.jpg', description: '', embedLink: 'https://d0000d.com/e/6pf3mc7hkbke' },
         { id: 46, title: 'Peaky Blinders (Ep 4)', image: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182741_b_v8_aa.jpg', description: '', embedLink: 'https://embedpk.net/embed-t3zptzzbynxr.html' },
@@ -33,7 +31,19 @@ document.addEventListener('DOMContentLoaded', function () {
        
         
         //.......
+        //--GOT
+{ id: 51, title: 'Games Of Thrones Season 1 Ep4', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled14.mp4' },
+     { id: 50, title: 'Games Of Thrones Season 1 Ep3', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled13.mp4' },
+       { id: 49, title: 'Games Of Thrones Season 1 Ep2', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled720.mp4' },
 
+
+        
+//---insidious
+
+  { id: 52, title: 'Insidious 3 ', image: 'https://m.media-amazon.com/images/M/MV5BMTUwNDU4NjE1N15BMl5BanBnXkFtZTgwOTc0MzA5NDE@._V1_FMjpg_UX1000_.jpg', description: '', embedLink: '//mixdrop.is/e/kndnodj7cx93v7' },
+        { id: 52, title: 'Insidious 2 ', image: 'https://upload.wikimedia.org/wikipedia/en/d/d4/Insidious_%E2%80%93_Chapter_2_Poster.jpg', description: '', embedLink: 'https://embedpk.net/embed-i1iiphgm1qp6.html' },
+        { id: 52, title: 'Insidious (2010)', image: 'https://upload.wikimedia.org/wikipedia/en/2/2d/Insidious_poster.jpg', description: '', embedLink: 'https://embedpk.net/embed-7yqszrwbwx6e.html' },
+        
         // All of us dead
         
         { id: 26, title: 'All Of Us Dead Season 1', image: 'https://images.justwatch.com/poster/262858624/s718/season-2.jpg', description: '', embedLink: 'https://embedpk.net/embed-etu5d6imt514.html' },
