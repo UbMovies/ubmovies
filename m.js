@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const movies = [
         //movies
-    
+        { id: 50, title: 'Mr Robot Season 1 Ep 1', image: 'https://images.justwatch.com/poster/54255953/s718/season-1.jpg', description: '', embedLink: 'https://www.bilibili.tv/en/video/2045312911' },
         { id: 48, title: 'Peaky Blinders (Ep 6)', image: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182741_b_v8_aa.jpg', description: '', embedLink: 'https://embedpk.net/embed-qg0mtbpgbax6.html' },
         { id: 47, title: 'Peaky Blinders (Ep 5)', image: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182741_b_v8_aa.jpg', description: '', embedLink: 'https://d0000d.com/e/6pf3mc7hkbke' },
         { id: 46, title: 'Peaky Blinders (Ep 4)', image: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182741_b_v8_aa.jpg', description: '', embedLink: 'https://embedpk.net/embed-t3zptzzbynxr.html' },
