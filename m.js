@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
          { id: 41, title: 'Alice in Borderland Season 2', image: 'https://m.media-amazon.com/images/M/MV5BZDdhMTAwMmQtOTVlYi00OTcwLTllZGMtMjc4NGU0NzFhODM3XkEyXkFqcGc@._V1_.jpg', description: '', embedLink: 'https://d0000d.com/e/r58x293t2xj6' },
          { id:40 , title: 'Alice in Borderland Season 1', image: 'https://miro.medium.com/v2/resize:fit:1000/1*GXEa_EYfyz3c36Rms4UNfQ.jpeg', description: '', embedLink: 'https://embedpk.net/embed-rvny9tetx5ue.html' },
-         { id: 39, title: 'Mirzapur (2024 Bonus Episode) ', image: 'https://staticimg.amarujala.com/assets/images/2024/07/03/marajapara-sajana-3_3302b21048ad530308ea55d030eabe79.jpeg?w=414', description: '', embedLink: 'https://d000d.com/e/duvw17kzpryq' },
+         { id: 39, title: 'Mirzapur (2024 Bonus Episode) ', image: 'https://staticimg.amarujala.com/assets/images/2024/07/03/marajapara-sajana-3_3302b21048ad530308ea55d030eabe79.jpeg?w=414', description: '', embedLink: 'https://embedpk.net/embed-oayu21lri5vg.html' },
         { id: 38, title: 'The Dictator', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_QSymoEBeZPgA76J4igxmfXvc7-X0pHKB8g&s', description: '', embedLink: 'https://embedpk.net/embed-89t97qlz6pm1.html' },
         { id: 37, title: 'Southpaw', image: 'https://play-lh.googleusercontent.com/fbiqvL_vvTUEoNvtZFcYSSULNGFSc2OpOpoCaYcBNCHomi5jQNc1t3fpjlHnjUq35tBMXJHxLi7JKZq6t90', description: '', embedLink: 'https://d0000d.com/e/28d7os6kc705' },
         { id: 36, title: 'Atlas', image: 'https://m.media-amazon.com/images/M/MV5BOWM5OGE3NGMtODc4Yi00NThjLWE2NTMtMDE5YjBhYmY5ZTE3XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg', description: '', embedLink: 'https://embedpk.net/embed-z393svcx73i7.html' },
