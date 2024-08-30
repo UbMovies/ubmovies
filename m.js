@@ -5,8 +5,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const movies = [
         //movies
-        
-        { id: 36, title: 'Atlas', image: 'https://m.media-amazon.com/images/M/MV5BOWM5OGE3NGMtODc4Yi00NThjLWE2NTMtMDE5YjBhYmY5ZTE3XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg', description: '', embedLink: 'ok.ru/videoembed/7207706364632' },
+        { id: 50, title: '', image: '', description: '', embedLink: '' },
+        { id: 49, title: '', image: '', description: '', embedLink: '' },
+        { id: 48, title: '', image: '', description: '', embedLink: '' },
+        { id: 47, title: '', image: '', description: '', embedLink: '' },
+        { id: 46, title: '', image: '', description: '', embedLink: '' },
+        { id: 45, title: '', image: '', description: '', embedLink: '' },
+        { id: 44, title: '', image: '', description: '', embedLink: '' },
+        { id: 43, title: '', image: '', description: '', embedLink: '' },
+        { id: 42, title: '', image: '', description: '', embedLink: '' },
+         { id: 41, title: '', image: '', description: '', embedLink: '' },
+         { id:40 , title: '', image: '', description: '', embedLink: '' },
+         { id: 39, title: 'Mirzapur (2024 Bonus Episode) ', image: 'https://staticimg.amarujala.com/assets/images/2024/07/03/marajapara-sajana-3_3302b21048ad530308ea55d030eabe79.jpeg?w=414', description: '', embedLink: 'https://d000d.com/e/duvw17kzpryq' },
+        { id: 38, title: 'The Dictator', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_QSymoEBeZPgA76J4igxmfXvc7-X0pHKB8g&s', description: '', embedLink: 'https://embedpk.net/embed-89t97qlz6pm1.html' },
+        { id: 37, title: 'Southpaw', image: 'https://play-lh.googleusercontent.com/fbiqvL_vvTUEoNvtZFcYSSULNGFSc2OpOpoCaYcBNCHomi5jQNc1t3fpjlHnjUq35tBMXJHxLi7JKZq6t90', description: '', embedLink: 'https://d0000d.com/e/28d7os6kc705' },
+        { id: 36, title: 'Atlas', image: 'https://m.media-amazon.com/images/M/MV5BOWM5OGE3NGMtODc4Yi00NThjLWE2NTMtMDE5YjBhYmY5ZTE3XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg', description: '', embedLink: 'https://embedpk.net/embed-z393svcx73i7.html' },
 
         { id: 22, title: 'Adhura', image: 'https://m.media-amazon.com/images/M/MV5BZjIzOTZjN2EtZDczZS00MjExLWI3MGMtYjkwYTAxZDM3ODg3XkEyXkFqcGdeQXVyMTA1NTY0NzQ0._V1_.jpg', description: '', embedLink: 'https://embedpk.net/embed-2uraulfq96ad.html' },
         { id: 21, title: 'Good Night Mommy', image: 'https://upload.wikimedia.org/wikipedia/en/5/55/GoodnightMommy2022poster.jpg', description: '', embedLink: 'https://embedpk.net/embed-l2nn8ebzxome.html' },
