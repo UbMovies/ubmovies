@@ -134,6 +134,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     
                    
                     movieView++;
+                    localStorage.setItem(`movie-${movie.id}-views`, movieView);
                     viewsElement.textContent = `Views: ${movieView}`;
                   }, 1000); 
                 //movieIframe.src = `/proxy?url=${encodeURIComponent(movie.embedLink)}`;
