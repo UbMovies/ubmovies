@@ -128,15 +128,15 @@ document.addEventListener('DOMContentLoaded', function () {
   a.target = '_blank';
   a.rel = 'noopener noreferrer';
   a.click();
-                 setTimeout(() => {
-                    const viewsElement = movieItem.querySelector('.views');
-                    let movieView = parseInt(viewsElement.textContent.split(': ')[1], 10) || 0;
+                // setTimeout(() => {
+                  //  const viewsElement = movieItem.querySelector('.views');
+                   // let movieView = parseInt(viewsElement.textContent.split(': ')[1], 10) || 0;
                     
                    
-                    movieView++;
-                    localStorage.setItem(`movie-${movie.id}-views`, movieView);
-                    viewsElement.textContent = `Views: ${movieView}`;
-                  }, 1000); 
+                   // movieView++;
+                   // localStorage.setItem(`movie-${movie.id}-views`, movieView);
+                   // viewsElement.textContent = `Views: ${movieView}`;
+                  //}, 1000); 
                 //movieIframe.src = `/proxy?url=${encodeURIComponent(movie.embedLink)}`;
                 //movieIframe.requestFullscreen();
 
