@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const movies = [
         //movies
+        { id: 56, title: 'Games Of Thrones Season 1 Ep 10', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled20.mp4 ' },
+        { id: 55, title: 'Games Of Thrones Season 1 Ep 9', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled19-2.mp4 ' },
+        { id: 54, title: 'Games Of Thrones Season 1 Ep 8', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: ' https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled18-1.mp4' },
+        { id: 53, title: 'Games Of Thrones Season 1 Ep 7', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: ' https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled17.mp4' },
+        { id: 52, title: 'Games Of Thrones Season 1 Ep 6', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: ' https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled16-1.mp4' },
+        { id: 51, title: 'Games Of Thrones Season 1 Ep 5', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: ' https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled15.mp4' },
         { id: 50, title: 'Mr Robot Season 1 Ep 1', image: 'https://images.justwatch.com/poster/54255953/s718/season-1.jpg', description: '', embedLink: 'https://www.bilibili.tv/en/video/2045312911' },
         { id: 48, title: 'Peaky Blinders (Ep 6)', image: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182741_b_v8_aa.jpg', description: '', embedLink: 'https://embedpk.net/embed-qg0mtbpgbax6.html' },
         { id: 47, title: 'Peaky Blinders (Ep 5)', image: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182741_b_v8_aa.jpg', description: '', embedLink: 'https://d0000d.com/e/6pf3mc7hkbke' },
@@ -32,10 +38,12 @@ document.addEventListener('DOMContentLoaded', function () {
         
         //.......
         //--GOT
+        
 { id: 51, title: 'Games Of Thrones Season 1 Ep4', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled14.mp4' },
+                          
      { id: 50, title: 'Games Of Thrones Season 1 Ep3', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled13.mp4' },
        { id: 49, title: 'Games Of Thrones Season 1 Ep2', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled720.mp4' },
-
+{ id: 57, title: 'Games Of Thrones Season 1 Ep 1', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://geo.dailymotion.com/player.html?video=x8ray9v' },
 
         
 //---insidious
