@@ -57,6 +57,9 @@ document.addEventListener('DOMContentLoaded', function () {
         { id: 26, title: 'All Of Us Dead Season 1', image: 'https://images.justwatch.com/poster/262858624/s718/season-2.jpg', description: '', embedLink: 'https://embedpk.net/embed-etu5d6imt514.html' },
 
         //Yeh family
+                { id: 58, title: 'Yeh Meri Family Season 1 Ep 7', image: 'https://m.media-amazon.com/images/S/pv-target-images/f865659e6f495f3a3e6004a710a751967ec220c2b6bea176d87573d071d131ec.jpg', description: 'A nostalgic tale of childhood in the late 90s.', embedLink: 'blob:https://flow.tvlogy.to/bdaf7101-5e3d-4936-9b19-6e44dd22b676' },
+
+        
         { id: 1, title: 'Yeh Meri Family Season 1', image: 'https://m.media-amazon.com/images/S/pv-target-images/f865659e6f495f3a3e6004a710a751967ec220c2b6bea176d87573d071d131ec.jpg', description: 'A nostalgic tale of childhood in the late 90s.', embedLink: 'https://embedpk.net/embed-5rlp8gib92ro.html' },
         { id: 2, title: 'Yeh Meri Family Season 2', image: 'https://assets.telegraphindia.com/telegraph/2023/Jun/1685959542_yea-meri-family-season-2.jpg', description: 'N/A', embedLink: 'https://d0000d.com/e/lrb9fav7vr2x' },
         { id: 3, title: 'Yeh Meri Family Season 3', image: 'https://assets.telegraphindia.com/telegraph/2023/Jun/1685959542_yea-meri-family-season-2.jpg', description: 'N/A', embedLink: 'https://embedpk.net/embed-e6vjw3dwzjvy.html' },
