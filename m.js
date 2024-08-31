@@ -119,6 +119,7 @@ document.addEventListener('DOMContentLoaded', function () {
             movieItem.innerHTML = `
                 <img src="${movie.image}" alt="${movie.title}">
                 <h3>${movie.title}</h3>
+                   <p class="views">Views: ${movie.view}</p>
             `;
             movieItem.addEventListener('click', () => {
                          const url = movie.embedLink;
