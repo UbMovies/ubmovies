@@ -5,31 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UB Movies</title>
     <link rel="stylesheet" href="Files.YT/css/style.css">
+    
+  
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Cardo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Ub Movies </h1>
-      <!--  <p style="color: brown;">If Show Any Error Like: Video embed restricted for this domain Refrest The Url</p>-->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+    
+          <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+            
+            
+            <h1 class="sitename">Ub Movies</h1>
+          </a>
+    
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li><a href="index.html" class="active">Home<br></a></li>
+              <li><a href="#">Coming Movies</a></li>
+              
+                  <li><a href="#">Play Music </a></li>
+                 <li><a href="#">Download </a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+    
+          
+    
+        </div>
         <input type="text" id="searchBar" placeholder="Search for movies...">
 
-    </header>
-    <main>
-        <section class="movie-list" id="movieList">
-            <div id="movieList"></div>
-        <div class="boxmetadata">
-                <div class="metalft">
-                    <span class="views">Views: 0</span>
-                </div>
+      </header>
+    
+
+        <!-- Main Content -->
+        <div class="main-content">
+           
+
+            <main>
+                <section class="movie-list" id="movieList">
+                    <div id="movieList"></div>
+                    <div class="boxmetadata">
+                        <div class="metalft">
+                            <span class="views">Views: 0</span>
+                        </div>
+                    </div>
+                    <iframe id="movieIframe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>UB Movies</h3>
+                <p>Your go-to platform for the latest and greatest in cinema.</p>
             </div>
-            <iframe id="movieIframe"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-
-        </section>
-
-    </main>
-   <footer>
-      <p>&copy; 2023 UB Movies. All rights reserved.</p>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">In Theaters</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h4>Contact Us</h4>
+                <p>Email: programmingmemeswithuneeb@gmail.com</p>
+                <p>Phone: N/A</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 UB Movies. All rights reserved.</p>
+        </div>
     </footer>
+
     <script src="m.js"></script>
+    
+
+  
+    <script src="main.js"></script>
+
 </body>
 </html>
