@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const movies = [
         //movies
-        { id: 58, title: 'Hustlers', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgfC6iC_0tDaa5yFjxSPM4bAyMjABGnmUhgA&s', description: '', embedLink: 'https://embedpk.net/embed-8nyyr5kbyy3n.html ' },
-        { id: 57, title: '3 Idiots', image: 'https://play-lh.googleusercontent.com/2plinRZ5j5LJ9fLBKbY8LRSmUjcHoJHQGnJtviRlhO9WF7T9eYfzMbPoGKydzKcnVZCI4Z8LXzxUV4Q10pQ', description: '', embedLink: 'https://embedpk.net/embed-vqeg5qbvsxpe.html ' },
+        { id: 59, title: 'Hustlers', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgfC6iC_0tDaa5yFjxSPM4bAyMjABGnmUhgA&s', description: '', embedLink: 'https://embedpk.net/embed-8nyyr5kbyy3n.html ' },
+        { id: 58, title: '3 Idiots', image: 'https://play-lh.googleusercontent.com/2plinRZ5j5LJ9fLBKbY8LRSmUjcHoJHQGnJtviRlhO9WF7T9eYfzMbPoGKydzKcnVZCI4Z8LXzxUV4Q10pQ', description: '', embedLink: 'https://embedpk.net/embed-vqeg5qbvsxpe.html ' },
         { id: 56, title: 'Games Of Thrones Season 1 Ep 10', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled20.mp4 ' },
         { id: 55, title: 'Games Of Thrones Season 1 Ep 9', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: 'https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled19-2.mp4 ' },
         { id: 54, title: 'Games Of Thrones Season 1 Ep 8', image: 'https://qph.cf2.quoracdn.net/main-qimg-4d3107c1b191cc6c6e1e4b3d9a3a6f1e', description: '', embedLink: ' https://turtlemotionfilm.wordpress.com/wp-content/uploads/2020/04/untitled18-1.mp4' },
